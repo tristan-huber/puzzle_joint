@@ -69,8 +69,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.4016927083333333,
-      "y": 0.40571428571428575,
+      "x": 0.43489583333333337,
+      "y": 0.37428571428571433,
       "uniqueID": "id-176",
       "name": "Linear-Pattern",
       "ioValues": [
@@ -85,7 +85,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 2.101287955270919,
+          "ioValue": 1.7320505831671325,
           "currentEquation": "depth"
         },
         {
@@ -245,7 +245,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 2.101287955270919
+              "ioValue": 1.7320505831671325
             },
             {
               "name": "distY",
@@ -402,26 +402,99 @@
       "y": 0.7371428571428572,
       "uniqueID": "id-227",
       "name": "intersectDeg",
-      "value": 45
+      "value": 30
     },
     {
       "atomType": "Equation",
-      "x": 0.24869791666666669,
-      "y": 0.5914285714285714,
+      "x": 0.24348958333333331,
+      "y": 0.66,
       "uniqueID": "id-237",
-      "name": "cos(a) * r * 4",
+      "name": "cos(a * 0.0174533) * r * 2",
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 45
+          "ioValue": 30
         },
         {
           "name": "r",
-          "ioValue": 1,
-          "currentEquation": "depth / 2"
+          "ioValue": 0.5,
+          "currentEquation": "depth / 4"
         }
       ],
-      "currentEquation": "cos(a) * r * 4"
+      "currentEquation": "cos(a * 0.0174533) * r * 2"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.455078125,
+      "y": 0.7314285714285714,
+      "uniqueID": "id-243",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0.8660252915835662
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0.5000001943375613
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.24674479166666666,
+      "y": 0.8657142857142858,
+      "uniqueID": "id-249",
+      "name": "sin(a * 0.0174533) * r * 2",
+      "ioValues": [
+        {
+          "name": "a",
+          "ioValue": 30
+        },
+        {
+          "name": "r",
+          "ioValue": 0.5,
+          "currentEquation": "depth / 4"
+        }
+      ],
+      "currentEquation": "sin(a * 0.0174533) * r * 2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.345703125,
+      "y": 0.44857142857142857,
+      "uniqueID": "id-255",
+      "name": "x * 2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 0.8660252915835662
+        }
+      ],
+      "currentEquation": "x * 2"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.58203125,
+      "y": 0.5771428571428572,
+      "uniqueID": "id-260",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -436,13 +509,43 @@
       "ap2ID": "id-176"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-176",
+      "ap2ID": "id-145"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-176",
+      "ap2ID": "id-243"
+    },
+    {
       "ap2Name": "a",
       "ap1ID": "id-227",
       "ap2ID": "id-237"
     },
     {
-      "ap2Name": "distX",
+      "ap2Name": "a",
+      "ap1ID": "id-227",
+      "ap2ID": "id-249"
+    },
+    {
+      "ap2Name": "x",
       "ap1ID": "id-237",
+      "ap2ID": "id-255"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-237",
+      "ap2ID": "id-243"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-249",
+      "ap2ID": "id-243"
+    },
+    {
+      "ap2Name": "distX",
+      "ap1ID": "id-255",
       "ap2ID": "id-176"
     }
   ],
