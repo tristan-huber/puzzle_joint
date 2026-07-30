@@ -16,8 +16,8 @@
     },
     {
       "name": "depth",
-      "ioValue": 0.25,
-      "currentEquation": "0.25"
+      "ioValue": 2,
+      "currentEquation": "2"
     }
   ],
   "topLevel": true,
@@ -54,6 +54,19 @@
       "y": 0.6517857142857143,
       "uniqueID": "id-157",
       "name": "depth"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.23893229166666669,
+      "y": 0.33035714285714285,
+      "uniqueID": "id-160",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 1,
+          "currentEquation": "depth / 2"
+        }
+      ]
     }
   ],
   "allConnectors": [],
