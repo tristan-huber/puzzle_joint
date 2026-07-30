@@ -16,8 +16,8 @@
     },
     {
       "name": "overlap_degrees",
-      "ioValue": 46,
-      "currentEquation": "46"
+      "ioValue": 30,
+      "currentEquation": "30"
     }
   ],
   "topLevel": true,
@@ -79,7 +79,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 1.3893162458932826,
+          "ioValue": 1.7320505831671325,
           "currentEquation": "depth"
         },
         {
@@ -239,7 +239,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 1.3893162458932826
+              "ioValue": 1.7320505831671325
             },
             {
               "name": "distY",
@@ -399,7 +399,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 46
+          "ioValue": 30
         },
         {
           "name": "r",
@@ -421,11 +421,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0.6946581229466413
+          "ioValue": 0.8660252915835662
         },
         {
           "name": "yDist",
-          "ioValue": -0.7193400393584727
+          "ioValue": -0.5000001943375613
         },
         {
           "name": "zDist",
@@ -442,7 +442,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 46
+          "ioValue": 30
         },
         {
           "name": "r",
@@ -461,7 +461,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.6946581229466413
+          "ioValue": 0.8660252915835662
         }
       ],
       "currentEquation": "x * 2"
@@ -474,7 +474,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 5.5572649835731305,
+          "ioValue": 6.92820233266853,
           "currentEquation": "depth * repeats"
         },
         {
@@ -496,7 +496,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2.7786324917865652,
+          "ioValue": 3.464101166334265,
           "currentEquation": "depth * repeats / 2"
         },
         {
@@ -527,7 +527,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -0.35967001967923634,
+          "ioValue": -0.25000009716878063,
           "currentEquation": "depth / 2"
         },
         {
@@ -545,7 +545,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": -0.35967001967923634
+          "ioValue": -0.25000009716878063
         }
       ],
       "currentEquation": "x * 2"
@@ -584,7 +584,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.6946581229466413
+          "ioValue": 0.8660252915835662
         }
       ],
       "currentEquation": "(repeats) * x * 2"
@@ -598,7 +598,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 5.5572649835731305
+          "ioValue": 6.92820233266853
         }
       ],
       "currentEquation": "x / 2"
@@ -612,7 +612,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-move-rectangle-5.5572649835731305-2-2.7786324917865652-1-0-0--0.35967001967923634-0",
+            "geometry": "move-move-rectangle-6.92820233266853-2-3.464101166334265-1-0-0--0.25000009716878063-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -641,7 +641,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-move-f55820a8-0-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
+                "geometry": "move-move-dfa2cd58-0-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -678,7 +678,7 @@
                 }
               },
               {
-                "geometry": "move-move-f55820a8-1-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
+                "geometry": "move-move-dfa2cd58-1-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -703,19 +703,19 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    0.8893152458932826,
+                    1.2320495831671325,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    1.8893172458932825,
+                    2.2320515831671326,
                     0.500001,
                     0
                   ]
                 }
               },
               {
-                "geometry": "move-move-f55820a8-2-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
+                "geometry": "move-move-dfa2cd58-2-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -740,19 +740,19 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    2.278631491786565,
+                    2.9641001663342648,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    3.2786334917865654,
+                    3.964102166334265,
                     0.500001,
                     0
                   ]
                 }
               },
               {
-                "geometry": "move-move-f55820a8-3-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
+                "geometry": "move-move-dfa2cd58-3-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -777,12 +777,12 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    3.6679477376798477,
+                    4.696150749501397,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    4.667949737679848,
+                    5.6961527495013975,
                     0.500001,
                     0
                   ]
@@ -833,7 +833,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 1.3893162458932826,
+          "ioValue": 1.7320505831671325,
           "currentEquation": "depth"
         },
         {
@@ -993,7 +993,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 1.3893162458932826
+              "ioValue": 1.7320505831671325
             },
             {
               "name": "distY",
