@@ -7,11 +7,17 @@
   "ioValues": [
     {
       "name": "length",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "repeats",
-      "ioValue": 10
+      "ioValue": 1
+    },
+    {
+      "name": "depth",
+      "ioValue": 0.25,
+      "currentEquation": "0.25"
     }
   ],
   "topLevel": true,
@@ -29,22 +35,6 @@
       ]
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.2903645833333333,
-      "y": 0.5773809523809523,
-      "uniqueID": "id-147",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Input",
       "x": 0.025384615384615384,
       "y": 0.3392857142857143,
@@ -54,9 +44,16 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.5,
+      "y": 0.4880952380952381,
       "uniqueID": "id-154",
       "name": "repeats"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6517857142857143,
+      "uniqueID": "id-157",
+      "name": "depth"
     }
   ],
   "allConnectors": [],
