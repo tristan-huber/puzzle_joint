@@ -6,9 +6,9 @@
 
 ## Inputs
 
-- **length** (number)
 - **repeats** (number)
 - **depth** (number)
+- **overlap_degrees** (number)
 
 
 
