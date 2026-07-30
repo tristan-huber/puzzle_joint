@@ -8,6 +8,7 @@
 
 - **length** (number)
 - **repeats** (number)
+- **depth** (number)
 
 
 
