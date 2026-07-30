@@ -6,10 +6,6 @@
   "name": "puzzle_joint",
   "ioValues": [
     {
-      "name": "length",
-      "ioValue": 10
-    },
-    {
       "name": "repeats",
       "ioValue": 4,
       "currentEquation": "4"
@@ -17,6 +13,11 @@
     {
       "name": "depth",
       "ioValue": 2
+    },
+    {
+      "name": "overlap_degrees",
+      "ioValue": 46,
+      "currentEquation": "46"
     }
   ],
   "topLevel": true,
@@ -32,13 +33,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.14,
-      "uniqueID": "id-151",
-      "name": "length"
     },
     {
       "atomType": "Input",
@@ -85,7 +79,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 1.6383037882510285,
+          "ioValue": 1.3893162458932826,
           "currentEquation": "depth"
         },
         {
@@ -245,7 +239,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 1.6383037882510285
+              "ioValue": 1.3893162458932826
             },
             {
               "name": "distY",
@@ -397,14 +391,6 @@
       "lastReloadedFromGithubAt": 1785447751785
     },
     {
-      "atomType": "Constant",
-      "x": 0.15234375,
-      "y": 0.7371428571428572,
-      "uniqueID": "id-227",
-      "name": "intersectDeg",
-      "value": 35
-    },
-    {
       "atomType": "Equation",
       "x": 0.24609375,
       "y": 0.5085714285714286,
@@ -413,7 +399,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 35
+          "ioValue": 46
         },
         {
           "name": "r",
@@ -435,11 +421,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0.8191518941255143
+          "ioValue": 0.6946581229466413
         },
         {
           "name": "yDist",
-          "ioValue": -0.5735766508066574
+          "ioValue": -0.7193400393584727
         },
         {
           "name": "zDist",
@@ -456,7 +442,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 35
+          "ioValue": 46
         },
         {
           "name": "r",
@@ -475,7 +461,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.8191518941255143
+          "ioValue": 0.6946581229466413
         }
       ],
       "currentEquation": "x * 2"
@@ -488,7 +474,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 6.553215153004114,
+          "ioValue": 5.5572649835731305,
           "currentEquation": "depth * repeats"
         },
         {
@@ -510,7 +496,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 3.276607576502057,
+          "ioValue": 2.7786324917865652,
           "currentEquation": "depth * repeats / 2"
         },
         {
@@ -541,7 +527,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -0.2867883254033287,
+          "ioValue": -0.35967001967923634,
           "currentEquation": "depth / 2"
         },
         {
@@ -559,7 +545,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": -0.2867883254033287
+          "ioValue": -0.35967001967923634
         }
       ],
       "currentEquation": "x * 2"
@@ -598,7 +584,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.8191518941255143
+          "ioValue": 0.6946581229466413
         }
       ],
       "currentEquation": "(repeats) * x * 2"
@@ -612,7 +598,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.553215153004114
+          "ioValue": 5.5572649835731305
         }
       ],
       "currentEquation": "x / 2"
@@ -626,7 +612,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-move-rectangle-6.553215153004114-2-3.276607576502057-1-0-0--0.2867883254033287-0",
+            "geometry": "move-move-rectangle-5.5572649835731305-2-2.7786324917865652-1-0-0--0.35967001967923634-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -655,7 +641,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-move-f54b2568-0-0.8191518941255143--0.5735766508066574-0-0--0.0001-0",
+                "geometry": "move-move-f55820a8-0-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -692,7 +678,7 @@
                 }
               },
               {
-                "geometry": "move-move-f54b2568-1-0.8191518941255143--0.5735766508066574-0-0--0.0001-0",
+                "geometry": "move-move-f55820a8-1-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -717,19 +703,19 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    1.1383027882510286,
+                    0.8893152458932826,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    2.1383047882510287,
+                    1.8893172458932825,
                     0.500001,
                     0
                   ]
                 }
               },
               {
-                "geometry": "move-move-f54b2568-2-0.8191518941255143--0.5735766508066574-0-0--0.0001-0",
+                "geometry": "move-move-f55820a8-2-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -754,19 +740,19 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    2.776606576502057,
+                    2.278631491786565,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    3.776608576502057,
+                    3.2786334917865654,
                     0.500001,
                     0
                   ]
                 }
               },
               {
-                "geometry": "move-move-f54b2568-3-0.8191518941255143--0.5735766508066574-0-0--0.0001-0",
+                "geometry": "move-move-f55820a8-3-0.6946581229466413--0.7193400393584727-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -791,12 +777,12 @@
                 "dimension": "2D",
                 "boundingBox": {
                   "min": [
-                    4.414910364753085,
+                    3.6679477376798477,
                     -0.500001,
                     0
                   ],
                   "max": [
-                    5.414912364753086,
+                    4.667949737679848,
                     0.500001,
                     0
                   ]
@@ -847,7 +833,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 1.6383037882510285,
+          "ioValue": 1.3893162458932826,
           "currentEquation": "depth"
         },
         {
@@ -1007,7 +993,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 1.6383037882510285
+              "ioValue": 1.3893162458932826
             },
             {
               "name": "distY",
@@ -1173,6 +1159,13 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0231,
+      "y": 0.7714285714285715,
+      "uniqueID": "id-408",
+      "name": "overlap_degrees"
     }
   ],
   "allConnectors": [
@@ -1190,16 +1183,6 @@
       "ap2Name": "remove",
       "ap1ID": "id-176",
       "ap2ID": "id-404"
-    },
-    {
-      "ap2Name": "a",
-      "ap1ID": "id-227",
-      "ap2ID": "id-237"
-    },
-    {
-      "ap2Name": "a",
-      "ap1ID": "id-227",
-      "ap2ID": "id-249"
     },
     {
       "ap2Name": "x",
@@ -1295,6 +1278,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-404",
       "ap2ID": "id-145"
+    },
+    {
+      "ap2Name": "a",
+      "ap1ID": "id-408",
+      "ap2ID": "id-237"
+    },
+    {
+      "ap2Name": "a",
+      "ap1ID": "id-408",
+      "ap2ID": "id-249"
     }
   ],
   "unitsKey": "Inches",
