@@ -439,7 +439,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0.5000001943375613
+          "ioValue": 1.0000003886751225
         },
         {
           "name": "zDist",
@@ -449,8 +449,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.24674479166666666,
-      "y": 0.8657142857142858,
+      "x": 0.24934895833333337,
+      "y": 0.8685714285714285,
       "uniqueID": "id-249",
       "name": "sin(a * 0.0174533) * r * 2",
       "ioValues": [
@@ -482,19 +482,105 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.58203125,
-      "y": 0.5771428571428572,
+      "x": 0.498046875,
+      "y": 0.5314285714285714,
       "uniqueID": "id-260",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 8,
+          "currentEquation": "depth * repeats"
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 2,
+          "currentEquation": "depth"
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.58203125,
+      "y": 0.5800000000000001,
+      "uniqueID": "id-295",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 4,
+          "currentEquation": "depth * repeats / 2"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 1,
+          "currentEquation": "depth / 2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.58984375,
+      "y": 0.7714285714285715,
+      "uniqueID": "id-301",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0.5000001943375613,
+          "currentEquation": "depth / 2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4817708333333333,
+      "y": 0.9028571428571429,
+      "uniqueID": "id-307",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.38411458333333337,
+      "y": 0.6485714285714286,
+      "uniqueID": "id-311",
+      "name": "x * 2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 0.5000001943375613
+        }
+      ],
+      "currentEquation": "x * 2"
     }
   ],
   "allConnectors": [
@@ -541,12 +627,32 @@
     {
       "ap2Name": "yDist",
       "ap1ID": "id-249",
-      "ap2ID": "id-243"
+      "ap2ID": "id-301"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-249",
+      "ap2ID": "id-311"
     },
     {
       "ap2Name": "distX",
       "ap1ID": "id-255",
       "ap2ID": "id-176"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-260",
+      "ap2ID": "id-295"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-295",
+      "ap2ID": "id-301"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-311",
+      "ap2ID": "id-243"
     }
   ],
   "unitsKey": "Inches",
