@@ -2,7 +2,7 @@
 
 # puzzle_joint
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
