@@ -16,7 +16,8 @@
     },
     {
       "name": "overlap_degrees",
-      "ioValue": 30
+      "ioValue": 45,
+      "currentEquation": "45"
     },
     {
       "name": "tolerance",
@@ -74,7 +75,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 30
+          "ioValue": 45
         },
         {
           "name": "r",
@@ -93,7 +94,7 @@
       "ioValues": [
         {
           "name": "a",
-          "ioValue": 30
+          "ioValue": 45
         },
         {
           "name": "r",
@@ -384,7 +385,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -0.25000009716878063
+          "ioValue": -0.3535535096002272
         },
         {
           "name": "zDist",
@@ -407,8 +408,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1.1,
-          "currentEquation": "diam + tolerance"
+          "ioValue": 1.2,
+          "currentEquation": "diam + tolerance * 2"
         }
       ]
     },
@@ -420,8 +421,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 1,
-          "currentEquation": "diam"
+          "ioValue": 1.2,
+          "currentEquation": "diam + tolerance * 2"
         },
         {
           "name": "y length",
@@ -472,7 +473,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -0.25000009716878063
+          "ioValue": -0.3535535096002272
         },
         {
           "name": "zDist",
@@ -489,7 +490,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-0.5-0--0.25000009716878063-0",
+            "geometry": "move-circle-0.5-0--0.3535535096002272-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -516,7 +517,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-1-1-0-0.5-0",
+            "geometry": "move-rectangle-1.2-1-0-0.5-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -656,7 +657,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0.9093265561627445
+          "ioValue": 0.8485279470126834
         },
         {
           "name": "yDist",
@@ -673,11 +674,11 @@
       "x": 0.36588541666666663,
       "y": 0.8342857142857143,
       "uniqueID": "id-906",
-      "name": "x + y * cos(a * 0.0174533) / 2",
+      "name": "x + y / cos(a * 0.0174533)",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.8660252915835662
+          "ioValue": 0.7071065431725605
         },
         {
           "name": "y",
@@ -685,10 +686,10 @@
         },
         {
           "name": "a",
-          "ioValue": 30
+          "ioValue": 45
         }
       ],
-      "currentEquation": "x + y * cos(a * 0.0174533) / 2"
+      "currentEquation": "x + y / cos(a * 0.0174533)"
     },
     {
       "atomType": "GitHubMolecule",
@@ -707,7 +708,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 0.9093265561627445
+          "ioValue": 0.8485279470126834
         },
         {
           "name": "distY",
@@ -866,7 +867,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 0.9093265561627445
+              "ioValue": 0.8485279470126834
             },
             {
               "name": "distY",
@@ -1026,7 +1027,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-8cd9bc78-0-0.9093265561627445-0-0",
+            "geometry": "move-9b018904-0-0.8485279470126834-0-0",
             "color": "#aad7f2",
             "tags": [],
             "bom": [],
@@ -1054,7 +1055,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "cut-move-circle-0.55-0--0.25000009716878063-0-fuse-move-circle-0.5-0--0.25000009716878063-0-move-rectangle-1-1-0-0.5-0",
+            "geometry": "cut-move-circle-0.6-0--0.3535535096002272-0-fuse-move-circle-0.5-0--0.3535535096002272-0-move-rectangle-1.2-1-0-0.5-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
