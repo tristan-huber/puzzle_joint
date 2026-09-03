@@ -1063,7 +1063,8 @@
         },
         {
           "name": "distY",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "distZ",
@@ -1547,7 +1548,7 @@
     },
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-973",
+      "ap1ID": "id-925",
       "ap2ID": "id-145"
     },
     {
