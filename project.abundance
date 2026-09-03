@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "repeats",
-      "ioValue": 4,
-      "currentEquation": "4"
+      "ioValue": 4
     },
     {
       "name": "depth",
@@ -16,8 +15,7 @@
     },
     {
       "name": "overlap_degrees",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 30
     }
   ],
   "topLevel": true,
@@ -37,14 +35,14 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.3342857142857143,
+      "y": 0.14,
       "uniqueID": "id-154",
       "name": "repeats"
     },
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.48,
+      "y": 0.2914285714285714,
       "uniqueID": "id-157",
       "name": "depth"
     },
@@ -522,8 +520,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -566,8 +563,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -0.0001,
-          "currentEquation": "-0.0001"
+          "ioValue": -0.0001
         },
         {
           "name": "zDist",
@@ -641,7 +637,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-move-dfa2cd58-0-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
+                "geometry": "move-move-0a7cc590-0-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -678,7 +674,7 @@
                 }
               },
               {
-                "geometry": "move-move-dfa2cd58-1-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
+                "geometry": "move-move-0a7cc590-1-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -715,7 +711,7 @@
                 }
               },
               {
-                "geometry": "move-move-dfa2cd58-2-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
+                "geometry": "move-move-0a7cc590-2-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -752,7 +748,7 @@
                 }
               },
               {
-                "geometry": "move-move-dfa2cd58-3-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
+                "geometry": "move-move-0a7cc590-3-0.8660252915835662--0.5000001943375613-0-0--0.0001-0",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
@@ -1163,7 +1159,7 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.7714285714285715,
+      "y": 0.4085714285714286,
       "uniqueID": "id-408",
       "name": "overlap_degrees"
     }
@@ -1178,11 +1174,6 @@
       "ap2Name": "Geometry",
       "ap1ID": "id-160",
       "ap2ID": "id-346"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-176",
-      "ap2ID": "id-404"
     },
     {
       "ap2Name": "x",
@@ -1270,11 +1261,6 @@
       "ap2ID": "id-404"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-346",
-      "ap2ID": "id-243"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-404",
       "ap2ID": "id-145"
@@ -1288,6 +1274,16 @@
       "ap2Name": "a",
       "ap1ID": "id-408",
       "ap2ID": "id-249"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-176",
+      "ap2ID": "id-404"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-346",
+      "ap2ID": "id-243"
     }
   ],
   "unitsKey": "Inches",
