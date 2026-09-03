@@ -6,8 +6,9 @@
   "name": "puzzle_joint",
   "ioValues": [
     {
-      "name": "repeats",
-      "ioValue": 4
+      "name": "width",
+      "ioValue": 6,
+      "currentEquation": "6"
     },
     {
       "name": "diam",
@@ -21,8 +22,8 @@
     },
     {
       "name": "tolerance",
-      "ioValue": 0.1,
-      "currentEquation": "0.1"
+      "ioValue": 0.01,
+      "currentEquation": "0.01"
     }
   ],
   "topLevel": true,
@@ -280,7 +281,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 0.9695377978937383
+              "ioValue": 0.7351208090352798
             },
             {
               "name": "y",
@@ -372,10 +373,24 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.8383231705331494
+          "ioValue": 0.7211146761039202
         }
       ],
       "currentEquation": "x * 2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.728515625,
+      "y": 0.2914285714285714,
+      "uniqueID": "id-1077",
+      "name": "ceil(width / offset)",
+      "ioValues": [
+        {
+          "name": "offset",
+          "ioValue": 1.4422293522078404
+        }
+      ],
+      "currentEquation": "ceil(width / offset)"
     },
     {
       "atomType": "Output",
@@ -394,7 +409,7 @@
       "x": 0.0231,
       "y": 0.14,
       "uniqueID": "id-154",
-      "name": "repeats"
+      "name": "width"
     },
     {
       "atomType": "Input",
@@ -758,7 +773,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1.2,
+          "ioValue": 1.02,
           "currentEquation": "diam + tolerance * 2"
         }
       ]
@@ -771,7 +786,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 1.2,
+          "ioValue": 1.02,
           "currentEquation": "diam + tolerance * 2"
         },
         {
@@ -867,7 +882,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-1.2-1-0-0.5-0",
+            "geometry": "move-rectangle-1.02-1-0-0.5-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1007,7 +1022,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0.8383231705331494
+          "ioValue": 0.7211146761039202
         },
         {
           "name": "yDist",
@@ -1032,7 +1047,7 @@
         },
         {
           "name": "y",
-          "ioValue": 0.1
+          "ioValue": 0.01
         },
         {
           "name": "a",
@@ -1043,14 +1058,14 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7415364583333334,
-      "y": 0.20285714285714287,
+      "x": 0.779296875,
+      "y": 0.5771428571428572,
       "uniqueID": "id-925",
       "name": "Linear-Pattern",
       "ioValues": [
         {
           "name": "Number",
-          "ioValue": 4,
+          "ioValue": 5,
           "currentEquation": "repeats"
         },
         {
@@ -1059,7 +1074,7 @@
         },
         {
           "name": "distX",
-          "ioValue": 1.6766463410662988
+          "ioValue": 1.4422293522078404
         },
         {
           "name": "distY",
@@ -1215,11 +1230,11 @@
             },
             {
               "name": "count",
-              "ioValue": 4
+              "ioValue": 5
             },
             {
               "name": "distX",
-              "ioValue": 1.6766463410662988
+              "ioValue": 1.4422293522078404
             },
             {
               "name": "distY",
@@ -1379,7 +1394,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-9b018904-0-0.8383231705331494-0-0",
+            "geometry": "move-0662c068-0-0.7211146761039202-0-0",
             "color": "#aad7f2",
             "tags": [],
             "bom": [],
@@ -1407,7 +1422,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "cut-move-circle-0.6-0--0.3535535096002272-0-fuse-move-circle-0.5-0--0.3535535096002272-0-move-rectangle-1.2-1-0-0.5-0",
+            "geometry": "cut-move-circle-0.51-0--0.3535535096002272-0-fuse-move-circle-0.5-0--0.3535535096002272-0-move-rectangle-1.02-1-0-0.5-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -1569,6 +1584,16 @@
     {
       "ap2Name": "distX",
       "ap1ID": "id-1069",
+      "ap2ID": "id-925"
+    },
+    {
+      "ap2Name": "offset",
+      "ap1ID": "id-1069",
+      "ap2ID": "id-1077"
+    },
+    {
+      "ap2Name": "Number",
+      "ap1ID": "id-1077",
       "ap2ID": "id-925"
     }
   ],
