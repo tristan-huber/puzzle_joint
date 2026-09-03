@@ -7,8 +7,9 @@
 ## Inputs
 
 - **repeats** (number)
-- **depth** (number)
+- **diam** (number)
 - **overlap_degrees** (number)
+- **tolerance** (number)
 
 
 
