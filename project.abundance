@@ -1714,6 +1714,16 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-1263",
+      "ap2ID": "id-1267"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1267",
+      "ap2ID": "id-145"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-160",
       "ap2ID": "id-844"
     },
@@ -1841,16 +1851,6 @@
       "ap2Name": "x",
       "ap1ID": "id-1016",
       "ap2ID": "id-1069"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1263",
-      "ap2ID": "id-1267"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-1267",
-      "ap2ID": "id-145"
     }
   ],
   "unitsKey": "Inches",
