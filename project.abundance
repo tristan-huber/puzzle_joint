@@ -7,23 +7,19 @@
   "ioValues": [
     {
       "name": "width",
-      "ioValue": 6,
-      "currentEquation": "6"
+      "ioValue": 6
     },
     {
       "name": "diam",
-      "ioValue": 1,
-      "currentEquation": "1"
+      "ioValue": 1
     },
     {
       "name": "overlap_degrees",
-      "ioValue": 45,
-      "currentEquation": "45"
+      "ioValue": 45
     },
     {
       "name": "tolerance",
-      "ioValue": 0.01,
-      "currentEquation": "0.01"
+      "ioValue": 0.01
     }
   ],
   "topLevel": true,
@@ -293,7 +289,7 @@
         {
           "atomType": "Input",
           "x": 0.0231,
-          "y": 0.37999999999999995,
+          "y": 0.14,
           "uniqueID": "id-1060",
           "name": "rectangle",
           "type": "geometry"
@@ -301,7 +297,7 @@
         {
           "atomType": "Input",
           "x": 0.0231,
-          "y": 0.46399999999999997,
+          "y": 0.22400000000000003,
           "uniqueID": "id-1063",
           "name": "outer",
           "type": "geometry"
@@ -309,7 +305,7 @@
         {
           "atomType": "Input",
           "x": 0.0231,
-          "y": 0.5479999999999999,
+          "y": 0.30800000000000005,
           "uniqueID": "id-1066",
           "name": "inner",
           "type": "geometry"
@@ -332,16 +328,6 @@
           "ap2ID": "id-1018"
         },
         {
-          "ap2Name": "x",
-          "ap1ID": "id-1021",
-          "ap2ID": "id-1030"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-1026",
-          "ap2ID": "id-1030"
-        },
-        {
           "ap2Name": "geometry2",
           "ap1ID": "id-1060",
           "ap2ID": "id-1020"
@@ -360,6 +346,16 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-1066",
           "ap2ID": "id-1025"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-1021",
+          "ap2ID": "id-1030"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-1026",
+          "ap2ID": "id-1030"
         }
       ],
       "fileTypeVersion": 1
@@ -386,11 +382,263 @@
       "name": "ceil(width / offset)",
       "ioValues": [
         {
+          "name": "width",
+          "ioValue": 1
+        },
+        {
           "name": "offset",
           "ioValue": 1.4422293522078404
         }
       ],
       "currentEquation": "ceil(width / offset)"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.8346354166666666,
+      "y": 0.7599999999999999,
+      "uniqueID": "id-1263",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "cut-1bc67010-0-1bc67010-1",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "2D",
+                "boundingBox": {
+                  "min": [
+                    -0.510001,
+                    -0.8635545096002272,
+                    0
+                  ],
+                  "max": [
+                    1.2311156761039201,
+                    0.8635545096002272,
+                    0
+                  ]
+                }
+              },
+              {
+                "geometry": "cut-1bc67010-1-1bc67010-2",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "2D",
+                "boundingBox": {
+                  "min": [
+                    0.9322283522078404,
+                    -0.8635545096002272,
+                    0
+                  ],
+                  "max": [
+                    2.6733450283117604,
+                    0.8635545096002272,
+                    0
+                  ]
+                }
+              },
+              {
+                "geometry": "cut-1bc67010-2-1bc67010-3",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "2D",
+                "boundingBox": {
+                  "min": [
+                    2.374457704415681,
+                    -0.8635545096002272,
+                    0
+                  ],
+                  "max": [
+                    4.115574380519601,
+                    0.8635545096002272,
+                    0
+                  ]
+                }
+              },
+              {
+                "geometry": "cut-1bc67010-3-1bc67010-4",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "2D",
+                "boundingBox": {
+                  "min": [
+                    3.816687056623521,
+                    -0.8635545096002272,
+                    0
+                  ],
+                  "max": [
+                    5.557803732727441,
+                    0.8635545096002272,
+                    0
+                  ]
+                }
+              },
+              {
+                "geometry": "1bc67010-4",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "2D",
+                "boundingBox": {
+                  "min": [
+                    5.258916408831362,
+                    -0.8635545096002272,
+                    0
+                  ],
+                  "max": [
+                    7.000033084935282,
+                    0.8635545096002272,
+                    0
+                  ]
+                }
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [],
+            "dimension": "2D",
+            "nonReplicadSerialized": [],
+            "boundingBox": {
+              "min": [
+                -0.510001,
+                -0.8635545096002272,
+                0
+              ],
+              "max": [
+                7.000033084935282,
+                0.8635545096002272,
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.8997395833333333,
+      "y": 0.6685714285714286,
+      "uniqueID": "id-1267",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Keep Out"
     },
     {
       "atomType": "Output",
@@ -414,7 +662,7 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.24571428571428572,
+      "y": 0.22400000000000003,
       "uniqueID": "id-157",
       "name": "diam"
     },
@@ -472,7 +720,7 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.3514285714285714,
+      "y": 0.30800000000000005,
       "uniqueID": "id-408",
       "name": "overlap_degrees"
     },
@@ -761,7 +1009,7 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.5771428571428572,
+      "y": 0.39200000000000007,
       "uniqueID": "id-850",
       "name": "tolerance"
     },
@@ -808,8 +1056,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -1058,8 +1305,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.779296875,
-      "y": 0.5771428571428572,
+      "x": 0.7545572916666667,
+      "y": 0.6457142857142857,
       "uniqueID": "id-925",
       "name": "Linear-Pattern",
       "ioValues": [
@@ -1078,8 +1325,7 @@
         },
         {
           "name": "distY",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "distZ",
@@ -1452,6 +1698,21 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "distX",
+      "ap1ID": "id-1069",
+      "ap2ID": "id-925"
+    },
+    {
+      "ap2Name": "offset",
+      "ap1ID": "id-1069",
+      "ap2ID": "id-1077"
+    },
+    {
+      "ap2Name": "Number",
+      "ap1ID": "id-1077",
+      "ap2ID": "id-925"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-160",
       "ap2ID": "id-844"
@@ -1485,11 +1746,6 @@
       "ap2Name": "a",
       "ap1ID": "id-408",
       "ap2ID": "id-906"
-    },
-    {
-      "ap2Name": "assembly",
-      "ap1ID": "id-590",
-      "ap2ID": "id-559"
     },
     {
       "ap2Name": "Shape 1",
@@ -1552,24 +1808,29 @@
       "ap2ID": "id-973"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-900",
+      "ap2ID": "id-973"
+    },
+    {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-973",
+      "ap2ID": "id-925"
+    },
+    {
+      "ap2Name": "assembly",
+      "ap1ID": "id-590",
+      "ap2ID": "id-559"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-891",
       "ap2ID": "id-900"
     },
     {
       "ap2Name": "Shape 1",
-      "ap1ID": "id-900",
-      "ap2ID": "id-973"
-    },
-    {
-      "ap2Name": "number or geometry",
       "ap1ID": "id-925",
-      "ap2ID": "id-145"
-    },
-    {
-      "ap2Name": "Geometry",
-      "ap1ID": "id-973",
-      "ap2ID": "id-925"
+      "ap2ID": "id-1263"
     },
     {
       "ap2Name": "xDist",
@@ -1582,19 +1843,14 @@
       "ap2ID": "id-1069"
     },
     {
-      "ap2Name": "distX",
-      "ap1ID": "id-1069",
-      "ap2ID": "id-925"
+      "ap2Name": "geometry",
+      "ap1ID": "id-1263",
+      "ap2ID": "id-1267"
     },
     {
-      "ap2Name": "offset",
-      "ap1ID": "id-1069",
-      "ap2ID": "id-1077"
-    },
-    {
-      "ap2Name": "Number",
-      "ap1ID": "id-1077",
-      "ap2ID": "id-925"
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1267",
+      "ap2ID": "id-145"
     }
   ],
   "unitsKey": "Inches",
