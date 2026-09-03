@@ -6,7 +6,7 @@
 
 ## Inputs
 
-- **repeats** (number)
+- **width** (number)
 - **diam** (number)
 - **overlap_degrees** (number)
 - **tolerance** (number)
