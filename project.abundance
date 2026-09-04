@@ -26,8 +26,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.4388020833333333,
-      "y": 0.11714285714285713,
+      "x": 0.4,
+      "y": 0.1,
       "uniqueID": "id-1016",
       "name": "offset",
       "ioValues": [
@@ -48,7 +48,7 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
+          "x": 1,
           "y": 0.5,
           "uniqueID": "id-1018",
           "ioValues": [
@@ -60,8 +60,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.38203125,
-          "y": 0.7099999999999999,
+          "x": 0.4,
+          "y": 0.7,
           "uniqueID": "id-1020",
           "ioValues": [
             {
@@ -76,8 +76,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.4471354166666666,
-          "y": 0.8042857142857142,
+          "x": 0.4,
+          "y": 0.8,
           "uniqueID": "id-1021",
           "name": "Width",
           "ioValues": [
@@ -90,7 +90,7 @@
           "allAtoms": [
             {
               "atomType": "Output",
-              "x": 0.98,
+              "x": 1,
               "y": 0.5,
               "uniqueID": "id-1022",
               "ioValues": [
@@ -102,16 +102,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0231,
-              "y": 0.14,
+              "x": 0,
+              "y": 0.1,
               "uniqueID": "id-1023",
               "name": "Shape",
               "type": "geometry"
             },
             {
               "atomType": "Code",
-              "x": 0.380178716490658,
-              "y": 0.47632311977715874,
+              "x": 0.4,
+              "y": 0.5,
               "uniqueID": "id-1024",
               "ioValues": [
                 {
@@ -165,8 +165,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.325390625,
-          "y": 0.8157142857142857,
+          "x": 0.3,
+          "y": 0.8,
           "uniqueID": "id-1025",
           "ioValues": [
             {
@@ -181,8 +181,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.46015624999999993,
-          "y": 0.6642857142857143,
+          "x": 0.5,
+          "y": 0.7,
           "uniqueID": "id-1026",
           "name": "Width",
           "ioValues": [
@@ -195,8 +195,8 @@
           "allAtoms": [
             {
               "atomType": "Code",
-              "x": 0.380178716490658,
-              "y": 0.47632311977715874,
+              "x": 0.4,
+              "y": 0.5,
               "uniqueID": "id-1027",
               "ioValues": [
                 {
@@ -209,7 +209,7 @@
             },
             {
               "atomType": "Output",
-              "x": 0.98,
+              "x": 1,
               "y": 0.5,
               "uniqueID": "id-1028",
               "ioValues": [
@@ -221,8 +221,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0231,
-              "y": 0.14,
+              "x": 0,
+              "y": 0.1,
               "uniqueID": "id-1029",
               "name": "Shape",
               "type": "geometry"
@@ -270,8 +270,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.5109375,
-          "y": 0.7785714285714286,
+          "x": 0.5,
+          "y": 0.8,
           "uniqueID": "id-1030",
           "name": "(x + y) / 2",
           "ioValues": [
@@ -288,24 +288,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.14,
+          "x": 0,
+          "y": 0.1,
           "uniqueID": "id-1060",
           "name": "rectangle",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.22400000000000003,
+          "x": 0,
+          "y": 0.2,
           "uniqueID": "id-1063",
           "name": "outer",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.30800000000000005,
+          "x": 0,
+          "y": 0.3,
           "uniqueID": "id-1066",
           "name": "inner",
           "type": "geometry"
@@ -362,8 +362,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5611979166666667,
-      "y": 0.10857142857142857,
+      "x": 0.6,
+      "y": 0.1,
       "uniqueID": "id-1069",
       "name": "x * 2",
       "ioValues": [
@@ -376,8 +376,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.728515625,
-      "y": 0.2914285714285714,
+      "x": 0.7,
+      "y": 0.3,
       "uniqueID": "id-1077",
       "name": "ceil(width / offset)",
       "ioValues": [
@@ -394,8 +394,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.8346354166666666,
-      "y": 0.7599999999999999,
+      "x": 0.8,
+      "y": 0.8,
       "uniqueID": "id-1263",
       "ioValues": [
         {
@@ -629,8 +629,8 @@
     },
     {
       "atomType": "Color",
-      "x": 0.8997395833333333,
-      "y": 0.6685714285714286,
+      "x": 0.9,
+      "y": 0.7,
       "uniqueID": "id-1267",
       "ioValues": [
         {
@@ -642,7 +642,7 @@
     },
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 1,
       "y": 0.5,
       "uniqueID": "id-145",
       "ioValues": [
@@ -654,22 +654,22 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.14,
+      "x": 0,
+      "y": 0.1,
       "uniqueID": "id-154",
       "name": "width"
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.22400000000000003,
+      "x": 0,
+      "y": 0.2,
       "uniqueID": "id-157",
       "name": "diam"
     },
     {
       "atomType": "Circle",
-      "x": 0.173828125,
-      "y": 0.43999999999999995,
+      "x": 0.2,
+      "y": 0.4,
       "uniqueID": "id-160",
       "ioValues": [
         {
@@ -681,8 +681,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.12825520833333334,
-      "y": 0.2714285714285714,
+      "x": 0.1,
+      "y": 0.3,
       "uniqueID": "id-249",
       "name": "- sin(a * 0.0174533) * r",
       "ioValues": [
@@ -700,15 +700,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.30800000000000005,
+      "x": 0,
+      "y": 0.3,
       "uniqueID": "id-408",
       "name": "overlap_degrees"
     },
     {
       "atomType": "Move",
-      "x": 0.25390625,
-      "y": 0.4228571428571429,
+      "x": 0.3,
+      "y": 0.4,
       "uniqueID": "id-844",
       "ioValues": [
         {
@@ -731,15 +731,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.39200000000000007,
+      "x": 0,
+      "y": 0.4,
       "uniqueID": "id-850",
       "name": "tolerance"
     },
     {
       "atomType": "Circle",
-      "x": 0.16666666666666666,
-      "y": 0.08,
+      "x": 0.2,
+      "y": 0.1,
       "uniqueID": "id-853",
       "ioValues": [
         {
@@ -751,8 +751,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.2584635416666667,
-      "y": 0.6685714285714286,
+      "x": 0.3,
+      "y": 0.7,
       "uniqueID": "id-862",
       "ioValues": [
         {
@@ -769,8 +769,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.32421875,
-      "y": 0.6657142857142857,
+      "x": 0.3,
+      "y": 0.7,
       "uniqueID": "id-866",
       "ioValues": [
         {
@@ -794,8 +794,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.30859375,
-      "y": 0.10285714285714287,
+      "x": 0.3,
+      "y": 0.1,
       "uniqueID": "id-872",
       "ioValues": [
         {
@@ -818,8 +818,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.4010416666666667,
-      "y": 0.5428571428571428,
+      "x": 0.4,
+      "y": 0.5,
       "uniqueID": "id-878",
       "ioValues": [
         {
@@ -881,8 +881,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4661458333333333,
-      "y": 0.7114285714285714,
+      "x": 0.5,
+      "y": 0.7,
       "uniqueID": "id-883",
       "ioValues": [
         {
@@ -897,15 +897,15 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.50390625,
-      "y": 0.4228571428571429,
+      "x": 0.5,
+      "y": 0.4,
       "uniqueID": "id-891",
       "name": "util.Mirror",
       "topLevel": false,
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
+          "x": 1,
           "y": 0.5,
           "uniqueID": "id-888",
           "ioValues": [
@@ -917,8 +917,8 @@
         },
         {
           "atomType": "Code",
-          "x": 0.4387814879906269,
-          "y": 0.2325,
+          "x": 0.4,
+          "y": 0.2,
           "uniqueID": "id-889",
           "ioValues": [
             {
@@ -932,8 +932,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.14,
+          "x": 0,
+          "y": 0.1,
           "uniqueID": "id-890",
           "name": "assembly"
         }
@@ -982,8 +982,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.56640625,
-      "y": 0.2657142857142857,
+      "x": 0.6,
+      "y": 0.3,
       "uniqueID": "id-900",
       "ioValues": [
         {
@@ -1006,8 +1006,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7545572916666667,
-      "y": 0.6457142857142857,
+      "x": 0.8,
+      "y": 0.6,
       "uniqueID": "id-925",
       "name": "Linear-Pattern",
       "ioValues": [
@@ -1037,7 +1037,7 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
+          "x": 1,
           "y": 0.5,
           "uniqueID": "id-911",
           "ioValues": [
@@ -1049,8 +1049,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.27976190476190477,
-          "y": 0.2116991643454039,
+          "x": 0.3,
+          "y": 0.2,
           "uniqueID": "id-912",
           "ioValues": [
             {
@@ -1065,48 +1065,48 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.14,
+          "x": 0,
+          "y": 0.1,
           "uniqueID": "id-913",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.22400000000000003,
+          "x": 0,
+          "y": 0.2,
           "uniqueID": "id-914",
           "name": "Geometry",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.30800000000000005,
+          "x": 0,
+          "y": 0.3,
           "uniqueID": "id-915",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.39200000000000007,
+          "x": 0,
+          "y": 0.4,
           "uniqueID": "id-916",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.4760000000000001,
+          "x": 0,
+          "y": 0.5,
           "uniqueID": "id-917",
           "name": "distZ",
           "type": "number"
         },
         {
           "atomType": "Readme",
-          "x": 0.7794759825327511,
-          "y": 0.2787878787878788,
+          "x": 0.8,
+          "y": 0.3,
           "uniqueID": "id-918",
           "name": "README",
           "ioValues": [
@@ -1120,8 +1120,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.3799621928166351,
-          "y": 0.28955223880597014,
+          "x": 0.4,
+          "y": 0.3,
           "uniqueID": "id-919",
           "ioValues": [
             {
@@ -1136,8 +1136,8 @@
         },
         {
           "atomType": "Code",
-          "x": 0.603515625,
-          "y": 0.21428571428571427,
+          "x": 0.6,
+          "y": 0.2,
           "uniqueID": "id-920",
           "ioValues": [
             {
@@ -1167,8 +1167,8 @@
         },
         {
           "atomType": "Code",
-          "x": 0.4012178619756428,
-          "y": 0.6829268292682927,
+          "x": 0.4,
+          "y": 0.7,
           "uniqueID": "id-921",
           "ioValues": [
             {
@@ -1198,8 +1198,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.458984375,
-          "y": 0.4142857142857143,
+          "x": 0.5,
+          "y": 0.4,
           "uniqueID": "id-922",
           "ioValues": [
             {
@@ -1222,8 +1222,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5247395833333334,
-          "y": 0.47428571428571425,
+          "x": 0.5,
+          "y": 0.5,
           "uniqueID": "id-923",
           "ioValues": [
             {
@@ -1238,8 +1238,8 @@
         },
         {
           "atomType": "Code",
-          "x": 0.6790364583333334,
-          "y": 0.21714285714285714,
+          "x": 0.7,
+          "y": 0.2,
           "uniqueID": "id-924",
           "interpreterVersion": 1,
           "code": "// Example Code\nconst Inputs = [\n  { inputName: \"Shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"Number\", type: \"number\", defaultValue: 5 },\n  { inputName: \"distX\", type: \"number\", defaultValue: 10 },\n    { inputName: \"distY\", type: \"number\", defaultValue: 0 },\n    { inputName: \"distZ\", type: \"number\", defaultValue: 0 }\n];\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -1334,8 +1334,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.6139322916666666,
-      "y": 0.5885714285714286,
+      "x": 0.6,
+      "y": 0.6,
       "uniqueID": "id-973",
       "ioValues": [
         {
