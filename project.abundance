@@ -106,7 +106,8 @@
               "y": 0.1,
               "uniqueID": "id-1023",
               "name": "Shape",
-              "type": "geometry"
+              "type": "geometry",
+              "options": []
             },
             {
               "atomType": "Code",
@@ -225,7 +226,8 @@
               "y": 0.1,
               "uniqueID": "id-1029",
               "name": "Shape",
-              "type": "geometry"
+              "type": "geometry",
+              "options": []
             }
           ],
           "allConnectors": [
@@ -292,7 +294,8 @@
           "y": 0.1,
           "uniqueID": "id-1060",
           "name": "rectangle",
-          "type": "geometry"
+          "type": "geometry",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -300,7 +303,8 @@
           "y": 0.2,
           "uniqueID": "id-1063",
           "name": "outer",
-          "type": "geometry"
+          "type": "geometry",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -308,7 +312,8 @@
           "y": 0.3,
           "uniqueID": "id-1066",
           "name": "inner",
-          "type": "geometry"
+          "type": "geometry",
+          "options": []
         }
       ],
       "allConnectors": [
@@ -383,7 +388,7 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 1
+          "ioValue": 6
         },
         {
           "name": "offset",
@@ -657,14 +662,16 @@
       "x": 0,
       "y": 0.1,
       "uniqueID": "id-154",
-      "name": "width"
+      "name": "width",
+      "options": []
     },
     {
       "atomType": "Input",
       "x": 0,
       "y": 0.2,
       "uniqueID": "id-157",
-      "name": "diam"
+      "name": "diam",
+      "options": []
     },
     {
       "atomType": "Circle",
@@ -703,7 +710,8 @@
       "x": 0,
       "y": 0.3,
       "uniqueID": "id-408",
-      "name": "overlap_degrees"
+      "name": "overlap_degrees",
+      "options": []
     },
     {
       "atomType": "Move",
@@ -734,7 +742,8 @@
       "x": 0,
       "y": 0.4,
       "uniqueID": "id-850",
-      "name": "tolerance"
+      "name": "tolerance",
+      "options": []
     },
     {
       "atomType": "Circle",
@@ -935,7 +944,8 @@
           "x": 0,
           "y": 0.1,
           "uniqueID": "id-890",
-          "name": "assembly"
+          "name": "assembly",
+          "options": []
         }
       ],
       "allConnectors": [
@@ -1069,7 +1079,8 @@
           "y": 0.1,
           "uniqueID": "id-913",
           "name": "Number",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -1077,7 +1088,8 @@
           "y": 0.2,
           "uniqueID": "id-914",
           "name": "Geometry",
-          "type": "geometry"
+          "type": "geometry",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -1085,7 +1097,8 @@
           "y": 0.3,
           "uniqueID": "id-915",
           "name": "distX",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -1093,7 +1106,8 @@
           "y": 0.4,
           "uniqueID": "id-916",
           "name": "distY",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -1101,7 +1115,8 @@
           "y": 0.5,
           "uniqueID": "id-917",
           "name": "distZ",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Readme",
@@ -1227,12 +1242,20 @@
           "uniqueID": "id-923",
           "ioValues": [
             {
+              "name": "makeDisjoint",
+              "ioValue": true
+            },
+            {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape3",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -1422,6 +1445,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1267",
       "ap2ID": "id-145"
+    },
+    {
+      "ap2Name": "width",
+      "ap1ID": "id-154",
+      "ap2ID": "id-1077"
     },
     {
       "ap2Name": "geometry",
